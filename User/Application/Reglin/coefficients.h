@@ -1,0 +1,27 @@
+/*
+ * coefficients.h
+ *
+ *  Created on: 05.06.2019
+ *      Author: tobing
+ */
+
+#ifndef APPLICATION_REGLIN_COEFFICIENTS_H_
+#define APPLICATION_REGLIN_COEFFICIENTS_H_
+
+
+#define CONTAINER_COUNTDOWN 12500
+#define APOGEE_COUNTDOWN 12000
+#define SAFETY_APOGEE_COUNTDOWN 18000
+#define APOGEE_ALTITUDE_DELTA 3
+
+
+#define APOGEE_IDEAL  2300 // abs(-15285)*0.15
+#define APOGEE_OKAY 4600 // ideal*0.15
+#define ACCELERATION_ONE 0 // nominal value for OZ
+
+
+#define BREAKING_ACCELERATION 17000
+#define LAUNCH_ACCELERATION 20000
+
+
+#endif /* APPLICATION_REGLIN_COEFFICIENTS_H_ */
